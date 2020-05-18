@@ -10,11 +10,12 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 100vh;
-  padding: 100px;
   background-color: honeydew;
 }
-.form {
+.form__textarea {
+    display: block;
+    width: 320px;
+    height: 200px;
  
 }
 
