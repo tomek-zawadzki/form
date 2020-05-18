@@ -1,8 +1,24 @@
 html {
-    box-sizing: border-box;
-  }
-  *,
-  *:before,
-  *:after {
-    box-sizing: inhe;
-  }
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  padding: 100px;
+  background-color: honeydew;
+}
+.form {
+ 
+}
+
+.form__index {
+    display: block;
+  width: 300px;
+}

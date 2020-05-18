@@ -1,14 +1,135 @@
 <!DOCTYPE html>
 <html lang="pl">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Formularz</title>
     <link href="normalize.css" rel="stylesheet" type="text/css" />
-    <link href="style_main.css" rel="stylesheet" type="text/css" />
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <main>
+      <h1>Formularz treningowy:</h1>
 
-</head>
-<body>
-    
-</body>
+      <form class="form">
+        <p>
+          <label for="firstName">Imię:</label>
+          <input
+            class="form__index"
+            type="text"
+            name="firstName"
+            id="firstName"
+            placeholder="wpisz swoje imię"
+          />
+        </p>
+        <p>
+          <label for="lastName">Nazwisko:</label>
+          <input
+            class="form__index"
+            type="text"
+            name="lastName"
+            id="lastName"
+            placeholder="wpisz swoje nazwisko"
+          />
+        </p>
+        <p>
+          <label for="phone">Numer telefonu:</label>
+          <input
+            class="form__index"
+            type="tel"
+            name="phone"
+            id="phone"
+            placeholder="wpisz swój numer telefonu"
+          />
+        </p>
+        <p>
+          <label for="email">Adres email:</label>
+          <input
+            class="form__index"
+            type="email"
+            name="email"
+            id="email"
+            placeholder="wpisz swój adres email"
+          />
+        </p>
+        <fieldset>
+          <legend>Płeć</legend>
+          <p>
+            <label>
+              <input
+                
+                type="radio"
+                name="sex"
+                value="mężczyzna"
+              /> mężczyzna
+            </label>
+          </p>
+          <p>
+            <label>
+              <input
+            
+                type="radio"
+                name="sex"
+                value="kobieta"
+              /> kobieta
+            </label>
+          </p>
+        </fieldset>
+
+        <fieldset>
+          <legend>Adres zamieszkania</legend>
+          <p>
+            <label for="street">Ulica:</label>
+            <input
+              class="form__index"
+              type="text"
+              name="street"
+              id="street"
+              placeholder="wpisz ulicę na której mieszkasz"
+            />
+          </p>
+          <p>
+            <label for="houseNumber">Numer budynku:</label>
+            <input
+              class="form__index"
+              type="text"
+              name="houseNumber"
+              id="houseNumber"
+              placeholder="wpisz numer budynku"
+            />
+          </p>
+          <p>
+            <label for="localNumber">Numer mieszkania:</label>
+            <input
+              class="form__index"
+              type="text"
+              name="localNumber"
+              id="localNumber"
+              placeholder="wpisz numer mieszkania"
+            />
+          </p>
+          <p>
+            <label for="city">Miasto:</label>
+            <input
+              class="form__index"
+              type="text"
+              name="city"
+              id="city"
+              placeholder="wpisz miasto"
+            />
+          </p>
+          <p>
+            <label for="postCode">Kod pocztowy:</label>
+            <input
+              class="form__index"
+              type="number"
+              name="postCode"
+              id="postCode"
+              placeholder="wpisz kod pocztowy"
+            />
+          </p>
+        </fieldset>
+      </form>
+    </main>
+  </body>
 </html>
